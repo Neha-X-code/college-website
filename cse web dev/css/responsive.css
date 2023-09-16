@@ -1,0 +1,291 @@
+
+@media (max-width: 1300px) {}
+
+@media (max-width: 1120px) {}
+
+@media (max-width: 992px) {
+  .navbar-brand img {
+    max-width: 80%;
+    margin-top: 10px; 
+  }
+  .navbar-nav {
+    flex-direction: column; /* Stack navigation links vertically */
+    align-items: center; /* Center-align navigation links */
+  }
+
+  .navbar-toggler {
+    margin-top: 15px; /* Adjust margin for the toggler button */
+  }
+  .hero_area {
+    height: auto;   
+  }
+  .header_section {   
+    margin-top: 0;
+  }
+  .quote_btn-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .quote_btn-container a {
+    margin-right: 0;
+    margin-top: 10px;
+  }
+
+  .slider_section {
+    padding: 222px 0 122px 0;
+  }
+
+  .slider_section .carousel-indicators {
+    bottom: 55px;
+  }
+
+  .slider_section .detail_box{
+    margin-top: 59px;
+  }
+
+  .course_section .carousel_btn-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+  }
+
+  /* .course_section .heading_container {
+    margin-top: 30px;
+  } */
+  .course_section .carousel-control-prev,
+  .course_section .carousel-control-next {
+    position: unset;
+    margin: 0 2.5px;
+  }
+
+  .client_section .carousel_btn-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+  }
+
+  .client_section .carousel-control-prev,
+  .client_section .carousel-control-next {
+    position: unset;
+    margin: 0 2.5px;
+  }
+
+}
+@media (max-width: 1024px) {
+  .navbar-brand img {
+    max-width: 100px;
+    max-height: 21px;
+    margin-top: 3px;
+  }
+}
+@media (max-width: 768px) {
+  .about_section .detail-box {
+    margin-top: 0px;
+  }
+
+  .navbar-brand img {
+    max-width: 60%; 
+    margin-top: 15px; 
+  }
+  .profile_section .detail-box {
+    margin-top: 45px;
+  }
+
+  .subscribe_section {
+    padding-top: 75px;
+  }
+
+  .subscribe_section .row {
+    flex-direction: column-reverse;
+  }
+
+  .subscribe_section .detail-box {
+    margin-bottom: 45px;
+  }
+
+  .contact_section .map_container {
+    margin-top: 45px;
+  }
+
+  .info_section .info_box {
+    flex-direction: column;
+  }
+
+  .info_section .info_contact {
+    width: 100%;
+  }
+
+  .info_section .social_box {
+    margin: 0;
+    margin-top: 25px;
+  }
+
+  .footer_section .footer_box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer_section .footer_box p:not(:nth-last-child(1)) {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .info_section .info_contact {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info_section .info_contact a:not(:nth-last-child(1)) {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 420px) {}
+
+@media (max-width: 376px) {
+  .slider_section .detail_box h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+/* Common styles for the client logos */
+.client_logo img {
+  width: 100%; /* Make the images responsive within their containers */
+  max-width: 175px; /* Set a maximum width to prevent large images on smaller screens */
+  height: auto;
+  margin: 0 auto; /* Center the images horizontally */
+}
+
+.client_section .box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  margin-top: 12px;
+}
+
+.client_section .carousel-control-prev,
+.client_section .carousel-control-next {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #d93c9d;
+  opacity: 1;
+  font-size: 22px;
+  top: 50%;
+}
+
+.client_section .carousel-control-prev {
+  left: 4%;
+}
+
+.client_section .carousel-control-next {
+  right: 4%;
+}
+
+/* Responsive CSS for smaller screens */
+@media (max-width: 768px) {
+  .client_section .box {
+    flex-direction: column; /* Stack logos vertically on smaller screens */
+    text-align: center; /* Center align the logos */
+  }
+
+  .client_logo img {
+    margin: 12px 0; /* Add some space between the logos */
+  }
+}
+
+@media (max-width: 576px) {
+  .client_logo img {
+    max-width: 100%; /* Ensure the images scale down appropriately */
+  }
+}
+
+@media (max-width: 480px) {
+  .client_section .carousel-control-prev,
+  .client_section .carousel-control-next {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 420px) {
+  .client_section .carousel-control-prev,
+  .client_section .carousel-control-next {
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 376px) {
+  .client_section .carousel-control-prev,
+  .client_section .carousel-control-next {
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 992px) {
+  .about_section .col-md-6 {
+    flex: 0 0 100%; 
+    max-width: 100%;
+  }
+  .about_section .img-box img {
+    margin-top: 120px;
+  }
+  .about_section .detail-box {
+    text-align: center; 
+  }
+}
+
+@media (max-width: 768px) {
+  .about_section .detail-box a {
+    padding: 10px 20px; 
+  }
+}
+
+@media (max-width: 576px) {
+  .about_section .detail-box h2 {
+    font-size: 1.5rem; 
+  }
+}
+/* Responsive CSS for the profile section */
+@media (max-width: 992px) {
+  .profile_section .img-box {
+    margin-top: 190px; /* Adjust the top margin to move the image down */
+  }
+
+  .profile_section .detail-box {
+    margin-top: 20px; /* Adjust the top margin to move the details down */
+    flex-direction: column; /* Stack the details vertically */
+    text-align: center; /* Center-align text */
+  }
+
+  .profile_section .detail-box p {
+    font-weight: normal; /* Remove bold font for paragraphs */
+  }
+
+  .profile_section .detail-box ul li {
+    text-align: left; /* Align list items to the left */
+  }
+
+  .profile_section .detail-box a {
+    margin-top: 15px; /* Adjust top margin for the "Connect" button */
+  }
+}
